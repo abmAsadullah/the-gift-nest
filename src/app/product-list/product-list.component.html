@@ -22,7 +22,7 @@
         <ng-container *ngIf="filteredProducts.length > 0; else noProducts">
             <div class="card" *ngFor="let product of filteredProducts">
                 <div class="imgBx">
-                    <img [src]="product.imageUrl" alt="" />
+                    <img [src]="product.image" alt="" />
                     <ul class="action">
                         <li>
                             <i class="fa fa-eye">

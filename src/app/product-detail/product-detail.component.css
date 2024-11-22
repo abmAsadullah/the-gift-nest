@@ -46,10 +46,19 @@ section {
     width: 230px;
     margin: 10px;
     border-radius: 5px;
-
-    /* background: url("https://i.postimg.cc/X799Yjd4/product-1.jpg") no-repeat; */
     background-position: center;
     background-size: cover;
+    transition: transform .2s;
+}
+
+.product_img {
+    background-size: cover;
+}
+
+.product_img:hover {
+    -ms-transform: scale(1.5); /* IE 9 */
+    -webkit-transform: scale(1.5); /* Safari 3-8 */
+    /* transform: scale(1.5);  */
 }
 
 .product_details {

@@ -6,7 +6,7 @@ import { Observable } from 'rxjs';
     providedIn: 'root',
 })
 export class ProductService {
-    private apiUrl = 'http://localhost:3000/products'; // Use JSON Server or real API
+    private apiUrl = 'https://fakestoreapi.com/products'; // Use JSON Server or real API
 
     constructor(private http: HttpClient) { }
 

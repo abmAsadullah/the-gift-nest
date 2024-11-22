@@ -3,8 +3,8 @@
         <div class="content" *ngIf="product">
 
             <div class="left">
-                <div class="product_img" style="background: url('{{product.imageUrl}}') no-repeat; ">
-
+                <div class="product_img">
+                    <img class="product_img" [src]="product.image" alt="image">
                 </div>
                 <div class="product_details">
                     <h4 class="title">{{product.name}}</h4>
